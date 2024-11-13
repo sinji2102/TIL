@@ -1,4 +1,4 @@
-# [241123] React resize 이벤트
+# [241113] React resize 이벤트
 
 </br>
 
@@ -10,10 +10,12 @@
             <th>하단바 없을 때</th>
         </tr>
         <tr>
-            <td><img width="277" alt="image" src="https://github.com/user-attachments/assets/eae8e73d-da98-4581-8c96-6cc70319251b"></td>
-            <td><img width="308" alt="image" src="https://github.com/user-attachments/assets/8128410e-f227-4944-a165-ed3c1e11883c"></td>
+            <td><img width="277" alt="image" src="https://github.com/user-attachments/assets/38fa1f33-68b8-4980-838a-818327d26d71"></td>
+            <td><img width="308" alt="image" src="https://github.com/user-attachments/assets/922e27f5-4e6e-4bb8-a7b6-7a9b7f02bd38"></td>
         </tr>
     </table>
+
+
 
 위 이미지처럼, 사파리 자체 하단바까지 뷰포트로 계산해 사이드바 호출 시 하단이 잘리는 문제가 발견됐다.
 
