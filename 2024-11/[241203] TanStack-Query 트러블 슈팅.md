@@ -4,11 +4,7 @@
 
 ## 🤔 문제 상황
 
-<table align="center">
-        <tr>
-            <td><img width="277" alt="image" src="https://github.com/user-attachments/assets/ce05b0a3-9cf7-4d08-abd9-9a1d0a571660"></td>
-        </tr>
-</table>
+![](https://github.com/user-attachments/assets/ce05b0a3-9cf7-4d08-abd9-9a1d0a571660)
 
 어제 새벽에 오류를 해결하면서... 레전드 오류가 발생했다 ㅠㅠ
 바로 처음에는 잘 불러오는데 뒤로 돌아갔다 다시 들어오면 Data를 못 받아오는 오류가 있었다!! ㅠㅠ
@@ -49,21 +45,13 @@ export const useTicketRetrive = (formData: getTicketReq, filterList) => {
 
 위 코드가 위의 paymentData를 가져오는 api 쿼리 코드이다. 위를 보면 gcTime이 설정된 걸 알 수 있는데, `?`를 붙이기 전에 찾은 해결책은 `gcTime`을 0초로 설정하는 것이었다.
 
-<table align="center">
-        <tr>
-            <td><img width="277" alt="image" src="https://github.com/user-attachments/assets/ce05b0a3-9cf7-4d08-abd9-9a1d0a571660"></td>
-        </tr>
-</table>
+![](https://github.com/user-attachments/assets/ce05b0a3-9cf7-4d08-abd9-9a1d0a571660)
 
 위 사진을 보면, 데이터가 Inactive에 위치한 걸 볼 수 있다. 그렇다면 처음에 요청했을 때는 어떤지 확인해보자!
 
 그렇다면 왜 처음에는 잘 불러와졌을까?
 
-<table align="center">
-        <tr>
-            <td><img width="277" alt="image" src="https://github.com/user-attachments/assets/2c5c97b2-b8b2-4186-8036-b15e90e70b8f"></td>
-        </tr>
-</table>
+![](https://github.com/user-attachments/assets/2c5c97b2-b8b2-4186-8036-b15e90e70b8f)
 
 처음에 요청했을 때 데이터의 상태이다. 도영 오빠와 열심히 디버깅해본 결과, 처음 요청 시에는 `isLoading=true` 상태이다가 데이터가 들어오며 `isLoading=false` 상태가 되는 것을 확인할 수 있었다.
 

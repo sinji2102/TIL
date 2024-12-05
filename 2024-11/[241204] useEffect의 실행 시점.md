@@ -4,11 +4,7 @@
 
 ## 🤔 문제 상황
 
-<table align="center">
-        <tr>
-            <td><img width="277" alt="image" src="https://github.com/user-attachments/assets/1adb286c-1718-400b-9ec9-036adfc0854d"></td>
-        </tr>
-</table>
+![](https://github.com/user-attachments/assets/1adb286c-1718-400b-9ec9-036adfc0854d)
 
 채현 언니 [예매 취소 PR](https://github.com/TEAM-BEAT/BEAT-Client/pull/449)을 코드리뷰 하는 과정에서, 도영 오빠의 코드리뷰를 봤다. 문제가 된 부분은 아래 코드이다.
 
@@ -79,11 +75,7 @@ const Test = () => {
 
 위와 같은 코드가 있다면, 실행 결과는 아래와 같다.
 
-<table align="center">
-        <tr>
-            <td><img width="277" alt="image" src="https://github.com/user-attachments/assets/df7977c9-f559-45d4-a8b6-f3f6caf453a1"></td>
-        </tr>
-</table>
+![](https://github.com/user-attachments/assets/df7977c9-f559-45d4-a8b6-f3f6caf453a1)
 
 return 문 상단의 콘솔이 실행되고, 컴포넌트가 렌더링 되는 return문 내의 콘솔이 실행된 후에야 useEffect가 실행되는 것을 확인할 수 있다.
 
@@ -107,11 +99,7 @@ React는 컴포넌트들에 대한 생명주기 메서드가 존재하는데 이
 
 -> 생명주기 메서드를 함수형 컴포넌트에서도 다룰 수 있도록 하는 것이 useEffect Hook이다.
 
-<table align="center">
-        <tr>
-            <td><img width="277" alt="image" src="https://velog.velcdn.com/images/my_suwan/post/9d81101e-c9c9-469a-82b4-bb2feacc170f/image.png"></td>
-        </tr>
-</table>
+![](https://velog.velcdn.com/images/my_suwan/post/9d81101e-c9c9-469a-82b4-bb2feacc170f/image.png)
 
 클래스 생명주기 메서드는 위 이미지와 같다.
 
@@ -203,11 +191,7 @@ useEffect(() => {
 
 그리고 공부하다가 뭔가 이상한 기분이 들어서 찾아봤는데, 분명 예전에 React 스터디 할 때 정리한 적 있는 내용이었다... 저땐 React 완전 레전드 아기 시절이라 잘 기억 못했는지 모르겠지만... 예전에 공부해놓고 그대로 까먹어버린 게 레전드다... 벨로그에 해당 내용 있는 거 보고 진짜 깜짝 놀랐다 ㅠㅠ
 
-<table align="center">
-        <tr>
-            <td><img width="277" alt="image" src="https://github.com/user-attachments/assets/45f95ff1-d74a-4431-91b8-e2bd6767c828"></td>
-        </tr>
-</table>
+![](https://github.com/user-attachments/assets/45f95ff1-d74a-4431-91b8-e2bd6767c828)
 
 근데 사실 알고 있었어도 외부 url로 들어오는 경우는 생각 못했을 듯!! 남의 코리 읽기는 항상 재밌다...
 
