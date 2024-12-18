@@ -1,4 +1,4 @@
-# [241209] new QueryClient를 남발하면 안 되는 이유
+# [241217] new QueryClient를 남발하면 안 되는 이유
 
 </br>
 
