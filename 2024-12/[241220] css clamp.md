@@ -1,4 +1,4 @@
-# [241219] Github Action으로 랜덤 리뷰어 지정하기
+# [241220] css clamp 함수
 
 </br>
 
